@@ -26,10 +26,10 @@ export function Contact() {
 
     try {
       await emailjs.send(
-        'service_4m076db',
-        'template_2b1e4og',
+        'service_jzp454m', // services id provided by emailJS
+        'template_2b1e4og',// template id provided by emailJS
         templateParams,
-        '__2zCde41yJUeF8hL'
+        'rh8ChRYs5_HgWdo8y' // public key provided by emailJS
       );
 
       setStatus('success');
